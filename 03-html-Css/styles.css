@@ -1,0 +1,9 @@
+.textred {
+  color: red;
+}
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
