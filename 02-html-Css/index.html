@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Html-CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body class="background">
+    <h2>Titres</h2>
+
+    <p>
+      Pour créer un heading, ajouter "#" devant un mot ou une phrase. Le nombre
+      de
+      <br />
+      "#" que vous utilisez correspond au niveau de heading. Par exemple, pour
+      créer
+      <br />
+      un heading de niveau 3 (h3), utilisez 3 fois "#" (e.g., ### Mon Header).
+    </p>
+
+    <h4>Exemple:</h4>
+
+    <p>&lt;h2&gt;Salut&lt;/h2&gt;</p>
+
+    <p>Ce qui nous donne :</p>
+
+    <h2>Salut</h2>
+
+    <hr />
+
+    <h2>Paragraphes</h2>
+
+    <p>
+      Pour créer des paragraphes, utilisez une ligne blanche pour séparer une ou
+      plusieurs lignes de texte. Vous ne devez pas utiliser d'espaces ou de
+      tabs.
+    </p>
+
+    <hr />
+
+    <h2>Sauts de ligne</h2>
+
+    <p>
+      Pour créer un saut de ligne, finissez une ligne avec 2 ou plusieurs
+      espaces, et puis tapez retour.
+    </p>
+
+    <hr />
+
+    <h2>Mise en évidence</h2>
+
+    <p>Il existe plusieurs types de mise en évidences :</p>
+    <ul>
+      <li><h3>Mettre en gras</h3></li>
+
+      <p>
+        Pour mettre en gras en markdown, il vous suffit d'ajouter deux
+        astérisques (\*) ou underscores (\_) avant et après le mot ou la phrase
+        que vous voulez mettre en évidence.
+      </p>
+
+      <p>Exemple : &lt;strong&gt;un mot&lt;/strong&gt;</p>
+
+      <h4>Résultat :</h4>
+
+      <blockquote><strong>un mot</strong></blockquote>
+
+      <li><h3>Mettre en italique</h3></li>
+
+      <p>
+        Pour mettre en italique en markdown, il suffit d'ajouter seulement un
+        astérisque (\*) ou underscore (\_) avant et après le mot ou la phrase
+        que vous voulez mettre en évidence.
+      </p>
+
+      <p>Exemple : &lt;em&gt;un mot&lt;/em&gt;</p>
+
+      <h4>Résultat :</h4>
+
+      <blockquote><em>un mot</em></blockquote>
+
+      <li><h3>Mettre en gras et italique</h3></li>
+
+      <p>
+        Pour faire les deux en même temps, il suffit d'ajouter trois astérisques
+        (\*) ou underscores (\_) avant et après le mot ou la phrase à mettre en
+        évidence.
+      </p>
+
+      <p>Exemple : &lt;strong&gt;&lt;em&gt;un mot&lt;/em&gt;&lt;/strong&gt;</p>
+
+      <h4>Résultat :</h4>
+
+      <blockquote>
+        <strong><em>un mot</em></strong>
+      </blockquote>
+    </ul>
+    <hr />
+
+    <h2>5. Bloc de citations</h2>
+
+    <p>Il existe plusieurs types de blocs de citations :</p>
+    <ul>
+      <li><h3>Simple bloc de citations</h3></li>
+
+      <p>Il suffit d'ajouter un simple > devant votre paragraphe.</p>
+
+      <p>
+        Exemple : &lt;blockquote&gt;Drothy followed her through many of the
+        beautiful rooms in her castle.&lt;/blockquote&gt;
+      </p>
+
+      <h4>Résultat :</h4>
+
+      <blockquote>
+        Drothy followed her through many of the beautiful rooms in her castle.
+      </blockquote>
+
+      <li><h3>Bloc de citations avec pararaphes</h3></li>
+
+      <p>A chaque nouvelle ligne, ajoutez un > devant votre paragraphe.</p>
+
+      <p>
+        Exemple : >paragraphe1 <br />
+        >paragraphe2 <br />
+        >paragraphe3 <br />
+      </p>
+      <h4>Résultat :</h4>
+
+      <blockquote>paragraphe1</blockquote>
+      <br />
+      <blockquote>paragraphe2</blockquote>
+      <br />
+      <blockquote>paragraphe3</blockquote>
+    </ul>
+
+    <br />
+
+    <h2>6. Listes</h2>
+
+    <p>Il existe plusieurs types de listes :</p>
+    <ul>
+      <li><h3>Liste ordonnée</h3></li>
+
+      <p>
+        Pour avoir une liste ordonnée, il suffit de mettre des numéros à partir
+        de 1 suivi d'un point devant vos listes items.
+      </p>
+
+      <p>
+        Exemple : 1. Item1 <br />
+        2. Item2 <br />
+        3. Item3 <br />
+      </p>
+      <h4>Résultat :</h4>
+      <ol>
+        <blockquote><li>Item1</li></blockquote>
+        <blockquote><li>Item2</li></blockquote>
+        <blockquote><li>Item3</li></blockquote>
+      </ol>
+      <li><h3>Liste non-ordonnée</h3></li>
+
+      <p>
+        Pour avoir une liste non-ordonnée, il suffit de mettre un astérique
+        devant vos listes items.
+      </p>
+
+      <p>
+        Exemple : * Item1 <br />
+        * Item2 <br />
+        * Item3 <br />
+      </p>
+      <h4>Résultat :</h4>
+      <ul>
+        <blockquote><li>Item1</li></blockquote>
+        <blockquote><li>Item2</li></blockquote>
+        <blockquote><li>Item3</li></blockquote>
+      </ul>
+    </ul>
+
+    <h2>Code Blocks</h2>
+
+    <p>
+      Les blocs code permettent de spécifier au naviguateur<br />
+      lorsqu'il s'agit d'un titre, d'un paragraphe <br />
+      du commencement d'une section etc... <br />
+      Il ne faut cependant pas oublié<br />
+      de les fermer ensuite, <br />
+      pour garder un code correcte...
+    </p>
+    <h4>Exemple:</h4>
+
+    <title>01-Html-CSS</title>
+    <p>Ceci est un parapgraphe</p>
+
+    <hr />
+
+    <h2>Horizontal Rules</h2>
+
+    <p>
+      Pour mettre en place une règle horizontale continue, avec tirets, ou
+      traits de soulignement vous devez utiliser :
+    </p>
+
+    <p>
+      *** : permettera de créer une ligne horizontale. <br />
+
+      --- : Permettera de créer une ligne avec des tirets. <br />
+
+      ___ : Permettera de créer une ligne de soulignement.
+    </p>
+
+    <hr />
+
+    <h2>Links</h2>
+
+    <p>
+      Pour créer un lien, écrivez d'abord le texte du lien suivis directement de
+      l'url.
+    </p>
+
+    <h4>Exemple :</h4>
+
+    <p>
+      &lt;a href = "https://my.becode.org/" >CLIQUE ICI POUR ACCÉDER AU SITE
+      BECODE!&lt;/a&gt;
+    </p>
+
+    <p>Ce qui va donner :</p>
+
+    <p>j'adore le site :</p>
+    <a href="https://my.becode.org/" target="_blank"
+      >CLIQUE ICI POUR ACCÉDER AU SITE BECODE!</a
+    >
+
+    <hr />
+
+    <hr />
+
+    <h1>Markdown CheatSheet</h1>
+
+    <h2>Images</h2>
+
+    <p>
+      Pour ajouter une image, il faut ajouter un point d'exclamation ( ! ),
+      suivi du text alternatif entre crochets, ainsi que le chemin ou URL de
+      l'image entre parenthèses. Un titre peut être ajouté entre guillemets
+      après l'URL dans les parenthèses.
+    </p>
+
+    <p>&lt;img src ="BMW.jpg" alt ="Photo d'une voiture"&gt;</p>
+
+    <p>Voici le résultat:</p>
+
+    <img src="BMW.jpg" alt="Photo d'une voiture" />
+
+    <h2>Liens imagés</h2>
+
+    <p>
+      Pour ajouter un lien à une image, englobez le Markdown de l'image dans des
+      crochets, ensuite ajoutez le lien entre parenthèses.
+    </p>
+
+    <p>
+      &lt;img src
+      ="https://www.voiture-electrique-populaire.fr/wp-content/uploads/2013/02/volkswagen-golf-electrique-500x331.jpg"
+      alt ="photo VW"&gt;
+    </p>
+
+    <p>Voici le résultat:</p>
+
+    <img
+      src="https://www.voiture-electrique-populaire.fr/wp-content/uploads/2013/02/volkswagen-golf-electrique-500x331.jpg"
+      alt="photo VW"
+    />
+
+    <h2>Caractères d'échappement</h2>
+
+    <p>
+      Pour afficher un caractère qui est normalement utilisé pour formatter du
+      texte dans un fichier Markdown, ajoutez un backslash ( \\ ) avant
+      celui-ci.
+    </p>
+    <p>
+      ``` <br />
+      \* Sans le backslash, ceci est un élément d'une liste non-ordonnée ```
+      <br />
+    </p>
+
+    <p>Voici le résultat:</p>
+
+    <p>\* Sans le backslash, ceci est un élément d'une liste non-ordonnée</p>
+
+    <h2>
+      Liste des caractères échappables
+    </h2>
+    <p>
+      Vous pouvez utiliser le backslash ( \\ ) pour échapper les caractères
+      suivants.
+    </p>
+
+    <table>
+      <tr>
+        <td>\</td>
+        <td>backslash</td>
+      </tr>
+      <tr>
+        <td>`</td>
+        <td>backtick</td>
+      </tr>
+      <tr>
+        <td>*</td>
+        <td>astérisque</td>
+      </tr>
+      <tr>
+        <td>_</td>
+        <td>underscore</td>
+      </tr>
+      <tr>
+        <td>{}</td>
+        <td>accolades</td>
+      </tr>
+      <tr>
+        <td>[]</td>
+        <td>crochets</td>
+      </tr>
+      <tr>
+        <td>()</td>
+        <td>parenthèses</td>
+      </tr>
+      <tr>
+        <td>#</td>
+        <td>dièse</td>
+      </tr>
+      <tr>
+        <td>+</td>
+        <td>signe plus</td>
+      </tr>
+      <tr>
+        <td>-</td>
+        <td>signe moins</td>
+      </tr>
+      <tr>
+        <td>.</td>
+        <td>point</td>
+      </tr>
+      <tr>
+        <td>!</td>
+        <td>point d'exclamation</td>
+      </tr>
+      <tr>
+        <td>|</td>
+        <td>pipe</td>
+      </tr>
+    </table>
+  </body>
+</html>
