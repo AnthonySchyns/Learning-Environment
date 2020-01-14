@@ -1,9 +1,63 @@
-.textred {
+.textch {
   color: red;
+  font-weight: bold;
 }
+html,
 body {
-  background-image: url(background.jpg);
-  background-repeat: no-repeat;
-  width: 100%;
+  padding: 0;
+  margin: 0;
   height: 100%;
+}
+.background {
+  background-image: url(hj.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-family: fantasy;
+  font-size: 9em;
+  margin-top: 0;
+}
+p {
+  width: 1000px;
+}
+.logo {
+  width: 400px;
+  height: 500px;
+  float: right;
+}
+.quote {
+  font-size: 65px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #b65156;
+}
+.source {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.assocs {
+  text-align: center;
+  font-size: 5em;
+  font-family: fantasy;
+  color: blue;
+  text-decoration: underline;
+}
+.total {
+  margin-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Q {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  color: #81849c;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.video {
+  margin-left: 5%;
 }
